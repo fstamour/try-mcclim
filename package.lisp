@@ -1,5 +1,7 @@
 ;;;; package.lisp
 
 (defpackage #:try-mcclim
-  (:use #:cl))
+  (:use #:clim
+        #:clim-lisp)
+  (:export #:start-app))
 
